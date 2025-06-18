@@ -19,4 +19,3 @@ class CustomException(Exception):
 
     def __repr__(self):
         return CustomException.__name__.str() + f"({self.error_message})"
-    
